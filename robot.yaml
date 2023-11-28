@@ -1,0 +1,10 @@
+tasks:
+  Read the Emails:
+    shell: python -m robot --report NONE --outputdir output --logtitle "test_excel log" test_excel.robot
+
+condaConfigFile: conda.yaml
+artifactsDir: output
+PATH:
+  - .
+PYTHONPATH:
+  - .
